@@ -3,3 +3,35 @@
 <title>GDPR4School - Powered by XpertDPO</title>
 
         <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet">
+
+
+
+
+
+
+        <div class="col-lg-4 col-md-6">
+            <div class="icon-box">
+                <!--<div class="icon-box-icon"><span class="far fa-address-card"></span></div>-->
+                <div class="review-icons"><img src="assets/images/partners/logoOnLight.png" alt="">
+                <div class="icon-box-title">
+                    <h6>ConsentCheq</h6>
+                </div>
+                <div class="icon-box-content">
+                    <p>Around the world, Digital Privacy has become an important social issue. Many countries have recently enacted new privacy laws or are in the process of doing so.</p>
+                </div>
+                <div class="icon-box-link"><a href="partner-1.html">Read More &rarr;</a></div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="icon-box">
+                <!--<div class="icon-box-icon"><span class="far fa-wrench"></span></div>-->
+                <div class="review-icons"><img src="assets/images/partners/innovate2.png" alt="">
+                <div class="icon-box-title">
+                    <h6>Innovate</h6>
+                </div>
+                <div class="icon-box-content">
+                    <p>INNOVATE delivers secure and resilient IT infrastructure and telecommunication solutions, and provides ongoing support through our managed IT services.</p>
+                </div>
+                <div class="icon-box-link"><a href="partner-2.html">Read More &rarr;</a></div>
+            </div>
+        </div>
