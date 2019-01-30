@@ -12,3 +12,6 @@ facebook_username: XpertDPO
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
