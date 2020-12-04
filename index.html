@@ -2,35 +2,7 @@
 <html lang="en">
     <head>
         <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="51b030e1-d794-4280-ad4e-f35214478880" type="text/javascript". data-blockingmode="auto"></script>
-        <script>
-        window.addEventListener('CookiebotOnDialogDisplay', function (e) {
-          var C = 'CybotCookiebotDialogDetailBodyContent',
-              c = ['necessary','preference','statistics','advertising','unclassified'],
-              d = document,
-              e,
-              n = '',
-              t = ['about','overview'];
-
-
-          for (i of c) {
-            n = i.charAt(0).toUpperCase() + i.slice(1);
-            e = d.getElementById(C + 'CookieContainer' + n);
-            e.removeAttribute('href');
-            e.addEventListener('click', function () {
-              CookieConsent.dialog.showCookieContainerDetailPane(this.id.match(/Necessary|Preference|Statistics|Advertising|Unclassified/)[0]);
-            })
-          }
-
-          for (i of t) {
-            n = i.charAt(0).toUpperCase() + i.slice(1);
-            e = d.getElementById(C + 'Tabs' + n);
-            e.removeAttribute('href');
-            e.addEventListener('click', function () {
-              CookieConsent.dialog.showDetailPane(this.id.match(/About|Overview/)[0]);
-            })
-          }
-        }, false);
-        </script>
+        <script src="assets/js/custom/bannerCorsMod.js"></script>​
         <meta charset="UTF-8">
         <meta http-equiv="Content-Security-Policy" content="script-src 'self' *.cookiebot.com http://maps.googleapis.com/maps/api/;"script-src 'nonce-{NONCE}'>
         <meta http-equiv="Cache-Control" content="max-age=120"/>
